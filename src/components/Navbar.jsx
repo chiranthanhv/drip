@@ -16,16 +16,16 @@ export default function Navbar() {
     return (
         <nav className="bg-black/80 backdrop-blur-sm sticky top-0 z-40 border-b border-white/10">
             <div className="max-w-6xl mx-auto px-4 sm:px-6">
-                <div className="flex items-center justify-between h-24"> {/* Increased height */}
+                <div className="flex items-center justify-between h-24">
                     
-                    {/* ===== LOGO SECTION ===== */}
+                    {/* ===== LOGO ===== */}
                     <Link to="/" className="flex items-center gap-3">
                         <img
                             src={dripLogo}
                             alt="Drip Logo"
                             className="object-contain"
                             style={{
-                                height: '100px',  // ✅ Taller for desktop
+                                height: '100px',
                                 width: 'auto',
                                 maxHeight: '100px',
                             }}

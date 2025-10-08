@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 import ProductCard from '../components/ProductCard';
 import { SiAmazon, SiFlipkart } from 'react-icons/si';
 
-// ✅ Import local images
+// ✅ Local assets
 import heroImg from '../assets/heroSection.jpg';
 import lightningCharger from '../assets/lightningChargerCable.png';
 import cTypeCharger from '../assets/cTypeChargerCable.jpg';
